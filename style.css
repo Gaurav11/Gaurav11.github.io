@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+/*     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg); */
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -42,6 +42,7 @@ body {
     position: relative;
     height: 100vh;
     color: #555;
+    background-color: black;
 }
 
 .wrapper {
@@ -53,6 +54,7 @@ body {
     background-color: #fff;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    border: 5px solid cadetblue;
 }
 
 .player-0-panel,
@@ -88,7 +90,7 @@ body {
     margin-bottom: 130px;
 }
 
-.active { background-color: #f7f7f7; }
+.active { background-color: antiquewhite; }
 .active .player-name { font-weight: 300; }
 
 .active .player-name::after {
@@ -171,5 +173,5 @@ i {
 #dice-1 { top: 148px;}
 #dice-2 { top: 250px;}
 
-.winner { background-color: #f7f7f7; }
+.winner { background-color: antiquewhite; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
